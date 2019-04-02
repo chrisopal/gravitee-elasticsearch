@@ -126,6 +126,7 @@
                 "user": {
                     "type": "keyword"
                 }
+                <#if extendedRequestMappingTemplate??>,<#include "/${extendedRequestMappingTemplate}"></#if>
             }
         }
     }

@@ -126,6 +126,7 @@
                     "index": "not_analyzed",
                     "type": "string"
                 }
+                <#if extendedRequestMappingTemplate??>,<#include "/${extendedRequestMappingTemplate}"></#if>
             }
         }
     }
